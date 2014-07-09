@@ -19,7 +19,7 @@ $manifest = array (
 );
 
 $installdefs = array (
-    'id' => '',
+    'id' => '<%= packageName %>',
     // build -- start \\
     'copy' => array (
         0 => array (
